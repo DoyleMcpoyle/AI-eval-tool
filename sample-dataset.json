@@ -1,0 +1,182 @@
+[
+  {
+    "prompt": "How do I reset my password?",
+    "output": "To reset your password, click on 'Forgot Password' on the login page. Enter your email address, and we'll send you a reset link. Follow the instructions in the email to create a new password.",
+    "expected_result": "Clear step-by-step instructions for password reset",
+    "metadata": {
+      "category": "account",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "What's your return policy?",
+    "output": "You can return items within 30 days of purchase for a full refund. Items must be unused and in original packaging. Contact our support team to initiate a return.",
+    "expected_result": "Complete return policy information",
+    "metadata": {
+      "category": "policy",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "My order hasn't arrived yet. What should I do?",
+    "output": "I apologize for the delay. Can you provide your order number? I'll check the shipping status and help resolve this issue for you.",
+    "expected_result": "Empathetic response asking for order details",
+    "metadata": {
+      "category": "shipping",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "prompt": "Do you offer international shipping?",
+    "output": "Yes, we ship to over 50 countries worldwide. Shipping costs vary by destination. You can see the exact cost at checkout when you enter your address.",
+    "expected_result": "Clear information about international shipping",
+    "metadata": {
+      "category": "shipping",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "I was charged twice for my order!",
+    "output": "I sincerely apologize for this error. This is a serious issue. Let me investigate immediately. Can you provide your order number and the transaction details? We'll process a refund for the duplicate charge right away.",
+    "expected_result": "Urgent, empathetic response with immediate action",
+    "metadata": {
+      "category": "billing",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "prompt": "Can I change my shipping address?",
+    "output": "If your order hasn't shipped yet, we can update the address. Please provide your order number and new address. If it's already shipped, we can work with the carrier to redirect it.",
+    "expected_result": "Conditional response based on shipping status",
+    "metadata": {
+      "category": "shipping",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "prompt": "What payment methods do you accept?",
+    "output": "We accept all major credit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay. All transactions are secure and encrypted.",
+    "expected_result": "Complete list of payment options",
+    "metadata": {
+      "category": "payment",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "The product I received is defective. What now?",
+    "output": "I'm sorry to hear that. We'll make this right immediately. Please send us photos of the defect to support@example.com. We'll either send a replacement or issue a full refund, whichever you prefer.",
+    "expected_result": "Empathetic response with clear next steps",
+    "metadata": {
+      "category": "product_quality",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "prompt": "How long does shipping take?",
+    "output": "Standard shipping takes 5-7 business days. Express shipping (2-3 days) and overnight options are also available at checkout. You'll receive a tracking number once your order ships.",
+    "expected_result": "Clear shipping timeframes with options",
+    "metadata": {
+      "category": "shipping",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "I need to speak to a human representative immediately!",
+    "output": "I understand you need assistance. I'm here to help you right now. If you'd prefer to speak with our team, you can call us at 1-800-555-0123 (24/7) or I can have someone call you back. Which would you prefer?",
+    "expected_result": "Understanding response offering both self-service and escalation",
+    "metadata": {
+      "category": "escalation",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "prompt": "Can I cancel my order?",
+    "output": "Yes, you can cancel your order if it hasn't shipped yet. Please provide your order number and I'll process the cancellation immediately. If it's already shipped, you can refuse delivery or initiate a return once received.",
+    "expected_result": "Clear cancellation process with conditions",
+    "metadata": {
+      "category": "orders",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "prompt": "Do you have a loyalty program?",
+    "output": "Yes! Our Rewards Program gives you 1 point for every dollar spent. Earn 100 points and get $10 off your next purchase. Plus, members get early access to sales and free shipping on orders over $50.",
+    "expected_result": "Detailed loyalty program benefits",
+    "metadata": {
+      "category": "loyalty",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "What are your business hours?",
+    "output": "Our customer support team is available 24/7 via chat and email. Phone support is available Monday-Friday 9am-9pm EST, and Saturday-Sunday 10am-6pm EST.",
+    "expected_result": "Complete business hours for all channels",
+    "metadata": {
+      "category": "general",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "I received the wrong item in my package.",
+    "output": "I apologize for this mix-up. We'll send you the correct item right away at no charge. You can keep or donate the incorrect item - no need to return it. I'll also add a 15% discount to your next order as an apology.",
+    "expected_result": "Generous resolution with compensation",
+    "metadata": {
+      "category": "shipping_error",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "prompt": "Is this product available in blue?",
+    "output": "Let me check that for you. Yes, this product is available in blue! It's currently in stock. Would you like me to help you add it to your cart?",
+    "expected_result": "Product availability confirmation with proactive help",
+    "metadata": {
+      "category": "product_info",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "Your website is broken! I can't complete my purchase!",
+    "output": "I'm very sorry you're experiencing technical issues. This must be frustrating. Can you tell me which page or step is causing problems? In the meantime, I can help you complete your order over chat or phone at 1-800-555-0123.",
+    "expected_result": "Empathetic response with immediate workaround",
+    "metadata": {
+      "category": "technical",
+      "difficulty": "hard"
+    }
+  },
+  {
+    "prompt": "Can I use multiple discount codes?",
+    "output": "Unfortunately, our system only allows one discount code per order. However, I can help you determine which code gives you the best savings! May I see the codes you have?",
+    "expected_result": "Clear policy with helpful alternative",
+    "metadata": {
+      "category": "discounts",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "prompt": "What's the difference between the Pro and Standard versions?",
+    "output": "Great question! The Pro version includes advanced features like priority support, extended warranty, and premium materials. The Standard version has all core features and works perfectly for most users. The Pro is $50 more but worth it if you need those extras. Which features are most important to you?",
+    "expected_result": "Clear comparison with consultative approach",
+    "metadata": {
+      "category": "product_info",
+      "difficulty": "medium"
+    }
+  },
+  {
+    "prompt": "I love your product! Where can I leave a review?",
+    "output": "Thank you so much for your kind words! We'd love to hear your feedback. You can leave a review on our product page or on Google/Trustpilot. Would you like me to send you direct links to make it easy?",
+    "expected_result": "Grateful response with easy review options",
+    "metadata": {
+      "category": "feedback",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "prompt": "This is the worst customer service I've ever experienced!",
+    "output": "I sincerely apologize that we've let you down. That's not the experience we want you to have. Please tell me what happened so I can make this right. I'm committed to resolving this issue for you today. Can you share more details about your concern?",
+    "expected_result": "Sincere apology with commitment to resolve",
+    "metadata": {
+      "category": "complaint",
+      "difficulty": "hard"
+    }
+  }
+]
